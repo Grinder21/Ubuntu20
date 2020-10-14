@@ -1,4 +1,4 @@
-<form name="log" action="/controllers/sign_in.php" method="post">
+<form name="log" action="/controlles/sign_in.php" method="post">
 	<h3>Login user</h3>
 	<p>
 	Name: <input type="text" name="name">

@@ -1,5 +1,5 @@
 
-<form name="reg" action="/controllers/sign_up.php" method="post">
+<form name="reg" action="/controlles/sign_up.php" method="post">
 	<h3>Registration user</h3>
 	<p>
 	Name: <input type="text" name="name">

@@ -12,7 +12,7 @@ if (isset($_POST['reg'])) {
  echo 'Thanks for registration';
 }
 ?>
-<form name="reg" action="sign_in.php" method="post">
+<form name="reg" action="sign_up.php" method="post">
 	<h3>Registration user</h3>
 	<p>
 	Name: <input type="text" name="name">
@@ -27,3 +27,4 @@ if (isset($_POST['reg'])) {
 	<input type="submit" name="sendform" value='Registration'>
 	</p>
 </form>
+<a href="sign_in.php">Login</a>

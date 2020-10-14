@@ -1,4 +1,4 @@
-<?php if (isset($_POST['log'])) { ?>
+<?php if (isset($_POST['logform'])) { ?>
 	<p>Login succesful</p>
 	<?php } else { ?>
 	<p>Error login</p>

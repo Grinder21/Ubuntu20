@@ -2,6 +2,7 @@
 $name = htmlspecialchars(stripslashes($_POST['name']));
 $password = htmlspecialchars(stripslashes($_POST['password']));
 $email = htmlspecialchars(stripslashes($_POST['email']));
+require_once('../base.php');
 ?>
 
 <?php if (isset($_POST['regform'])) { ?>
@@ -13,6 +14,7 @@ $email = htmlspecialchars(stripslashes($_POST['email']));
 	<p>Вы ввели некорректный email-адрес</p>
 	<?php header('Refresh: 1; url=http://localhost/view/sign_up.php'); ?>
 <?php } ?>
+
 
 
 
